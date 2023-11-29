@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Increment and Decrement</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <!-- wrapper  -->
+    <div
+      class="w-[100vw] h-[100vh] flex flex-col justify-center items-center bg-[#344151] gap-10"
+    >
+      <div class="text-[#ffffff] font-medium text-[20px]">
+        Increment And Decrement
+      </div>
+      <div
+        class="bg-white flex flex-row justify-baseline text-[22px] text-[#344151] rounded-sm p-3 gap-10"
+      >
+        <button
+          onclick="minus()"
+          class="border-r-2 border-[#bfbfbf] text-[25px] font-bold px-5"
+        >
+          -
+        </button>
+        <div id="val" class="font-bold">0</div>
+        <button
+          onclick="plus()"
+          class="border-l-2 border-[#bfbfbf] text-[25px] font-bold px-5"
+        >
+          +
+        </button>
+      </div>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
